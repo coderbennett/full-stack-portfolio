@@ -10,19 +10,14 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body>
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-neutral fixed top-0 w-100 z-50">
             <div class="flex-1">
-                <a class="btn btn-ghost normal-case text-xl">joey bennett</a>
+                <a href="#top" class="btn btn-ghost normal-case text-xl">joey bennett</a>
             </div>
             <div class="flex-none">
                 <ul class="menu menu-horizontal p-0">
                 <li><a href="/api/project" target="_blank">Projects API</a></li>
                 <li><a href="/assets/joeybennett_resume.pdf" target="_blank">Resume</a></li>
-                {{#if logged_in}}
-                <li><a>Log out</a></li>
-                {{else}}
-                <li><a>Login</a></li>
-                {{/if}}
                 </ul>
             </div>
         </div>
