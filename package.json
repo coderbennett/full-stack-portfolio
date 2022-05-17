@@ -14,7 +14,8 @@
     "express-handlebars": "^6.0.5",
     "express-session": "^1.17.2",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.19.0"
+    "sequelize": "^6.19.0",
+    "tw-elements": "^1.0.0-alpha12"
   },
   "repository": {
     "type": "git",
