@@ -1,1 +1,15 @@
-<h2>test2</h2>
+<section class="flex flex-col justify-center">
+    {{#each projects as |project|}}
+    <div class="card w-3/4 bg-base-100 shadow-xl mx-auto my-6">
+        <figure><img src="/assets/{{ project.media }}" /></figure>
+        <div class="card-body">
+            <h2 class="card-title">{{ project.title }}</h2>
+            <p>{{ project.description }}</p>
+            <div class="card-actions justify-end">
+                <a href="{{ project.repository }}" class="btn btn-primary" target="_blank">Visit Repo</a>
+                <a href="{{ project.deployed }}" class="btn btn-primary" target="_blank">Visit Deployed App</a>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</section>
