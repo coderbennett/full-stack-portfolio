@@ -18,7 +18,7 @@
             <div class="card w-96 bg-primary text-primary-content my-3 mx-3  shadow-xl">
                 <div class="card-body">
                     <h2 class="card-title">What do I do?</h2>
-                    <p>I've been developing web apps for over 8 months, using technologies like MySQL, jQuery, Node.js, Tailwind, Moment.js, Handlebars along with other third party APIs. I've also spent a few years learning to develop games in Unity with C#. Below this section you can find projects I have worked on recently.</p>
+                    <p>I've been developing web apps for over 8 months, using technologies like MySQL, MongoDB, React, GraphQL, jQuery, Node.js, Tailwind, Moment.js, Handlebars along with other third party APIs. I've also spent a few years learning to develop games in Unity with C#. Below this section you can find projects I have worked on recently.</p>
                     <br>
                     <p>You can always reach me at <a class="hover:text-secondary" href="mailto:coderbennett1@gmail.com">coderbennett1@gmail.com</a></p>
                     <div class="card-actions justify-around mt-6">
@@ -43,11 +43,11 @@
 
 </section>
 
+<h2 id="projects" class="ml-16 my-6 text-3xl font-bold text-primary">Projects</h2>
 
-<section class="flex flex-col justify-center">
-    <h2 id="projects" class="ml-16 my-6 text-3xl font-bold text-primary">Projects</h2>
+<section class="flex flex-wrap justify-center">
     {{#each projects as |project|}}
-    <div class="card w-2/4 h-fit bg-base-100 shadow-xl mx-auto my-6">
+    <div class="card w-96 h-fit bg-base-100 shadow-xl mx-auto my-6">
         <figure><img src="/assets/{{ project.media }}" /></figure>
         <div class="card-body">
             <h2 class="card-title">{{ project.title }}</h2>
