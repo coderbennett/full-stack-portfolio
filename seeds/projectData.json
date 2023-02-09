@@ -9,7 +9,7 @@
     {
         "title": "Bookend",
         "repository": "https://github.com/coderbennett/bookend",
-        "deployed": "https://glacial-plateau-74113.herokuapp.com/",
+        "deployed": "https://bookend.herokuapp.com/",
         "description": "Bookend is a full stack application that allows readers to create an account and join a community of others in finding new books to read, viewing public book clubs, or even creating their own clubs and inviting their friends and family.",
         "media": "bookend.gif"
     },
