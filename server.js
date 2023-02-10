@@ -3,7 +3,6 @@ const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const express = require('express');
 const path = require('path');
-const seedDatabase = require('./seeds/seed');
 
 require('dotenv').config();
 
@@ -40,5 +39,3 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log(`Now listening on Port ${PORT}`));
 });
-
-seedDatabase();
